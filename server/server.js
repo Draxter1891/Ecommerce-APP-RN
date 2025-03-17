@@ -57,7 +57,7 @@ app.use('/api/v1/order', orderRoutes)
 
 
 app.get('/', (req, res) => {
-    return res.status(200).send("<h1>Welcome to Node Server.</h1>");
+    return res.status(200).send("<h1>Server Status</h1><p>🟢 Running</p>");
 });
 
 
